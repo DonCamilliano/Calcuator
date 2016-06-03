@@ -1,0 +1,58 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+}
+
+#screen {
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+  text-align: right;
+  color: #000;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.calculator {
+  display: block;
+  margin: 20px auto;
+  height: 450px;
+  width: 325px;
+  background-color: #c2c2a3;
+  border-radius: 15px;
+  border-bottom: 7px solid black;
+}
+
+.calbtn {
+  border-bottom: 2px solid black;
+  font-size: 30px;
+}
+
+a {
+  font-size: 40px;
+  float: left;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color: #ebebe0;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+.sign, .result {
+  background-color: #ccf2ff;
+}
+
+.AC, .CE {
+  background-color: #ffad99;
+}
